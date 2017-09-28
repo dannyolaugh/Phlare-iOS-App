@@ -156,8 +156,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
                 self.id = facebook_ID
                 self.name = facebook_name
             }
-            //print("boiii" + self.id)
-            //print("boiii" + self.name)
+
             counter += 1
         }
         
