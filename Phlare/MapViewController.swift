@@ -1,17 +1,7 @@
 //
 //  MapViewController.swift
 //  Phlare
-//
-//  Created by Jack Storch on 2/20/17.
-//  Copyright © 2017 Brian Li. All rights reserved.
-//
-//
-//  MapViewController.swift
-//  Phlare
-//
-//  Created by Jack Storch on 2/20/17.
-//  Copyright © 2017 Brian Li. All rights reserved.
-//
+
 import UIKit
 import MapKit
 import CoreLocation
@@ -171,7 +161,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             bool = true
             print("made annotation")
             
-            //TO DO: if they lose connection, we should remove their annotation too
+            //if they lose connection, we should remove their annotation too
         }
     }
     
