@@ -1,10 +1,5 @@
 //
 //  ProfileViewController.swift
-//  Phlare
-//
-//  Created by Jack Storch on 3/11/17.
-//  Copyright © 2017 Brian Li. All rights reserved.
-//
 
 import UIKit
 import MultipeerConnectivity
@@ -259,7 +254,6 @@ class PhlareManager: NSObject
         
     }
 }
-
 
 extension ProfileViewController : PhlareManagerDelegate
 {
